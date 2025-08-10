@@ -17,21 +17,26 @@ html {
     scroll-padding-top: 5rem; /* Adjust this value based on the height of your nav bar */
 }
 
-@font-face {
+/* @font-face {
     font-family: "Steph";
-    src: url("fonts/steph-font.ttf");
+    src: url("fonts/steph-font.ttf") format("truetype");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Steph";
-    src: url("fonts/steph-font-bold.ttf");
+    src: url("fonts/steph-font-bold.ttf") format("truetype");
     font-weight: bold;
 }
 
 body {
     font-family: 'Steph', sans-serif;
+} */
+
+body {
+  font-family: 'Gamja Flower', sans-serif;
 }
+
 
 a {
     color: var(--text-color);
@@ -244,6 +249,8 @@ section h2::after {
     align-items: center;
     text-align: center;
     gap: 2rem;
+    line-height: 18px;
+
 }
 
 #projects-section h2 {
@@ -511,3 +518,4 @@ footer {
         padding: 3rem 1rem; /* Adjust padding for smaller screens */
     }
 }
+
