@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radha Pranavi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="#about-section">Pranavi</a>
+            </div>
+            <div class="right">
+                <a href="#about-section">About</a>
+                <!-- <a href="#experience-section">Experience</a> -->
+                <a href="#projects-section">Projects</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#leave-message-section">Leave a Message!</a>
+            </div>
+        </nav>
+    </header>
+    <section id="about-section">
+        <h2>Hey World, I'm Pranavi!</h2>
+        <div class="headshot">
+            <picture>
+                <source srcset="images/webp/headshot.webp" type="image/webp">
+                <img src="images/headshot.png" alt="headshot">
+            </picture>
+        </div>
+        <div class="bio">
+            <p>
+                Hey! I'm Pranavi, an Information Technology student passionate about software development.
+                With a strong foundation in Java, Spring Boot, MySQL, and frontend technologies, 
+                I love building innovative solutions and exploring new technologies.
+            </p>
+            <br>
+            <p>
+                Outside of  academics, I enjoy playing online games, watching vlogs and cartoons!!
+            </p>
+        </div>
+        <div class="social-links">
+            <!-- <a href="https://www.instagram.com/stephranaway/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a> -->
+            <!-- <a href="https://www.youtube.com/@stephranaway" target="_blank">
+                <i class="fa-brands fa-square-youtube"></i>
+            </a> -->
+            <a href="https://www.linkedin.com/in/radha-pranavi-thontepu-46ba50256/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Radhapranavi47" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:radhapranavi74@gmail.com">
+                <i class="far fa-envelope" aria-hidden="true"></i>
+            </a>
+
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="projects-section">
+        <h2>Projects</h2>
+    
+        <!-- Software Projects Subsection -->
+        <div class="project-subsection">
+            <h3>Software</h3>
+            <div #swiperRef="" class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://github.com/Radhapranavi47/Multi-Cloud_file_storage_application.git" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/webp/cloudrage.webp" type="image/webp">
+                            <img src="images/cloudrage.jpg" alt="Cloudrage">
+                        </picture>
+                        <h4>Cloudrage</h4>
+                        <h5><em>Java, SQL</em></h5>
+                        <p>Cloudrage is an unified interface of multiple platforms where one can upload, view and download their files.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/Radhapranavi47/Crop-Recommendation-App" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/webp/FarmFriendImage.webp" type="image/webp">
+                            <img src="images/FarmFriendImage.png" alt="Farm Friend">
+                        </picture>
+                        <h4>Farm Friend</h4>
+                        <h5><em>Python, Flask</em></h5>
+                        <p>Farm Friend is a website where you can get personalzied Crop, Fertilizer recommendations and Pest detection and know more about the crops.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/Radhapranavi47/Image_Editor" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/webp/ImageEditor.webp" type="image/webp">
+                            <img src="images/ImageEditor.png" alt="Github Issues">
+                        </picture>
+                        <h4>Image Editor</h4>
+                        <h5><em>Python</em></h5>
+                        <p>Image Editor helps enhancing images by resizing, cropping, rotating and adjusting some filters.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://lovable.dev/projects/a4493375-92f3-4b00-8998-30862a088d92" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/webp/CommunityGarden.webp" type="image/webp">
+                            <img src="images/CommunityGarden.png" alt="Farm Friend">
+                        </picture>
+                        <h4>Community Garden</h4>
+                        <h5><em>lovable</em></h5>
+                        <p>Community Garden is a place where all the users can plant however and howmany plants they want.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/Radhapranavi47/Skyfarm" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/webp/Skyfarm.webp" type="image/webp">
+                            <img src="images/Skyfarm.png" alt="Chibi Luffy">
+                        </picture>
+                        <h4>SkyFarm</h4>
+                        <h5><em>HTML, CSS</em></h5>
+                        <p>SkyFarm is a website where it promotes terrace gardening in order to promote sustainability.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/Radhapranavi47/AmzonClone" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/webp/AmazonClone.webp" type="image/webp">
+                            <img src="images/A.png" alt="Functional Adventure">
+                        </picture>
+                        <h4>Amazon Clone</h4>
+                        <h5><em>HTML, CSS</em></h5>
+                        <p>I built an Amazon Clone in my first frontend hackaton.</p>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Design Projects Subsection -->
+        <div class="project-subsection">
+            <h3>Design</h3>
+                <div #swiperRef="" class="swiper card-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="https://www.figma.com/proto/Srf4NOaXRCl6NFP2uxwqs0/Untitled?node-id=11-3&starting-point-node-id=11%3A3&t=zHDrNq19ceMT0gCh-1" target="_blank" class="project-box">
+                                <picture>
+                                    <source srcset="images/webp/small_turtle.webp" type="image/webp">
+                                    <img src="images/small_turtle.png" alt="small_turtle">
+                                </picture>
+                                <h4>Small Turtle</h4>
+                                <h5><em>Figma</em></h5>
+                                <p>My first fun design.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.figma.com/proto/vvFmncfRv8jW5ewfxxJX3z/Untitled?node-id=6-2&p=f&t=2ZaCIiB06SIkMh0g-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=6%3A2" target="_blank" class="project-box">
+                                <picture>
+                                    <source srcset="images/webp/harvestify.webp" type="image/webp">
+                                    <img src="images/harvestify.png" alt="harvestify">
+                                </picture>
+                                <h4>Harvestify</h4>
+                                <h5><em>Figma</em></h5>
+                                <p>I created a prototype for a web application.</p>
+                            </a>
+                        </div>
+                        <!-- Design Projects Subsection 
+                        <div class="swiper-slide">
+                            <a href="https://www.figma.com/design/dgGOVpe334IiQeQ48oHi7n/Course-Registration?node-id=0-1&p=f&t=1DJRWMw4xOXlk2TY-0" target="_blank" class="project-box">
+                                <picture>
+                                    <source srcset="images/webp/mpcs-redesign.webp" type="image/webp">
+                                    <img src="images/mpcs-redesign.png" alt="MPCS Redesign">
+                                </picture>
+                                <h4>MPCS Redesign</h4>
+                                <h5><em>Figma</em></h5>
+                                <p>I redesigned the website to make it simpler and more enjoyable to use.</p>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="https://youtu.be/9gVfe0mJjMQ" target=_blank class="project-box">
+                                <picture>
+                                    <source srcset="images/webp/wasted-ocean-1.webp" type="image/webp">
+                                    <img src="images/wasted-ocean-1.png" alt="Wasted Ocean Mural">
+                                </picture>
+                                <h4>Wasted Ocean</h4>
+                                <h5><em>Final Cut Pro X</em></h5>
+                                <p>I spearheaded the installation of <em>Wasted Ocean</em>, a mural of ocean life made entirely from student waste.</p>
+                            </a>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <a href="https://www.figma.com/design/ldmrdlXEzcKOQCGWQD9hzG/Assignment-5---Native-App-with-Retention?node-id=0-1&p=f&t=SH0RlarLtnl9onec-0" target="_blank" class="project-box">
+                                <picture>
+                                    <source srcset="images/webp/job-seaerch-design.webp" type="image/webp">
+                                    <img src="images/job-seaerch-design.png" alt="Job Search App">
+                                </picture>
+                                <h4>Job Search App</h4>
+                                <h5><em>Figma</em></h5>
+                                <p>I designed a simple native job search iOS app targeted towards new grads.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.figma.com/design/ugfzGq3DAgZKZX5YzDI2vE/RecipeWebsite?node-id=0-1&p=f&t=aRh6L1fb70qqi10w-0" target="_blank" class="project-box">
+                                <picture>
+                                    <source srcset="images/webp/lunisolar.webp" type="image/webp">
+                                    <img src="images/lunisolar.png" alt="Lunisolar">
+                                </picture>
+                                <h4>Lunisolar</h4>
+                                <h5><em>Figma</em></h5>
+                                <p>I designed a simple recipe website page inspired by the Lunar New Year.</p>
+                            </a>
+                        </div>
+                        --->
+                    </div>
+                </div>
+        </div>
+    </section>    
+    <div class="divider"></div>
+    <section id="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-java"></i>
+            <!--<i class="fa-brands fa-swift"></i> -->
+            <i class="fa-brands fa-figma"></i>
+            <i class="fa-brands fa-git-alt"></i>
+            <i class="fa-brands fa-github-alt"></i>
+            <i class="fa-solid fa-database"></i>
+            <!--<i class="devicon-r-plain"></i>
+            <i class="devicon-c-plain-wordmark"></i> -->
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="leave-message-section">
+        <h2>Leave a Message!</h2>
+        <p>coming soon :)</p>
+    </section>
+
+    <!-- Swiper JS -->
+    <!-- <footer>
+        <p>&copy; <span id="year"></span> Steph Ran. All Rights Reserved.</p>
+    </footer> -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Automatically update the copyright year
+            document.getElementById('year').textContent = new Date().getFullYear();
+    
+            // Initialize Swiper
+            const swiper = new Swiper(".card-swiper", {
+                centeredSlides: false,
+                spaceBetween: 0,
+                slidesPerView: 'auto'
+            });
+        });
+    </script>
+  </body>
+</html>
