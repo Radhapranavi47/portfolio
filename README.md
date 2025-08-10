@@ -25,3 +25,7 @@ To maintain optimal website performance:
 To optimize new images:
 1. Run `./optimize-images.sh` (requires ImageMagick)
 2. Use `<picture>` element with WebP and fallback in HTML
+
+## Contact 📧
+
+Created by [Radha Pranavi](https://radhapranavi47.github.io/portfolio/) - feel free to reach out!!
